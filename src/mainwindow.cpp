@@ -177,7 +177,7 @@ void MainWindow::busMonitorAddItem( bool isRequest,
 	const int rowCount = bm->rowCount();
 	bm->setRowCount( rowCount+1 );
 
-	QTableWidgetItem * ioItem = new QTableWidgetItem( isRequest ? tr( "Req >>" ) : tr( "<< Resp" ) );
+	QTableWidgetItem * ioItem = new QTableWidgetItem( isRequest ? tr( "TX: " ) : tr( "RX: " ) );
 	QTableWidgetItem * slaveItem = new QTableWidgetItem( QString::number( slave ) );
 	QTableWidgetItem * funcItem = new QTableWidgetItem( QString::number( func ) );
 	QTableWidgetItem * addrItem = new QTableWidgetItem( QString::number( addr ) );

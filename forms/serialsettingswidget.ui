@@ -77,6 +77,11 @@
      </item>
      <item>
       <property name="text">
+       <string>2400</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
        <string>4800</string>
       </property>
      </item>
